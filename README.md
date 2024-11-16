@@ -1,6 +1,6 @@
 
 # Gestión de Datos en Backend 
-## Desarrollada en Node.js con Express y TypeScrip. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los registros en una base de datos (MySQL).
+Desarrollada en Node.js con Express y TypeScrip. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los registros en una base de datos (MySQL).
 
 ## Estructura del Proyecto:
 routes/: Define las rutas del servidor.
@@ -20,3 +20,7 @@ npm run dev
 npm run build
 ### Iniciar el Servidor en Producción
 npm start
+
+## Licencia
+Este proyecto está bajo la Licencia MIT.
+
