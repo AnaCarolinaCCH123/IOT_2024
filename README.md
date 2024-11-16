@@ -4,13 +4,19 @@ Desarrollada en Node.js con Express y TypeScrip. Permite realizar operaciones CR
 
 ## Estructura del Proyecto:
 routes/: Define las rutas del servidor.
+
 controllers/: Contiene la lógica de las solicitudes.
+
 services/: Interactúa directamente con la base de datos.
+
 interfaces/: Define los tipos e interfaces.
+
 middlewares/: Middleware como validación de datos.
+
 schemas/: Esquemas para validar datos.
 
 Base de datos MySQL: Almacena los registros de alumnos.
+
 TypeScript:  tipado fuerte y calidad en el código.
 
 ## Comandos Disponibles
