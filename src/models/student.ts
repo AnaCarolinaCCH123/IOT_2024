@@ -1,8 +1,7 @@
 //Models
-import { ResultSetHeader, RowDataPacket } from "mysql2";
-import { Student } from "../interfaces/student";
 import pool from "../db";
-
+import { ResultSetHeader, RowDataPacket } from "mysql2/promise";
+import { PaginatedStudent, Student } from "../interfaces/student";
 export const findAllStudents = async (
   limit: number,
   offset: number

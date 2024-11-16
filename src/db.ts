@@ -5,7 +5,6 @@ import dotenvFlow from "dotenv-flow";
 if (process.env.NODE_ENV !== "production") {
   dotenvFlow.config();
 }
-dotenvFlow.config();
 
 const configOptions: ConnectionOptions = {
   host: process.env.MYSQL_HOST,
